@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 220px 2fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+    grid-template-areas:
+        "photo-section text-section text-section"
+        "photo-section text-section text-section"
+        "photo-section text-section text-section";
+    border: 1px solid black;
+}
+
+#photo-wall {
+    grid-area: photo-section;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#text-wall {
+    grid-area: text-section;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-photo {
+    border: 1px solid black;
+}
+
+.single-text {
+    border: 1px solid black;
+}
