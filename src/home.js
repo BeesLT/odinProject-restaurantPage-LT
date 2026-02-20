@@ -1,4 +1,4 @@
-export function loadHome() {
+export default function loadHome() {
     const content = document.getElementById("content");
     
     //const messages = document.createElement("div");

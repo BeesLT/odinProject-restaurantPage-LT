@@ -1,4 +1,4 @@
-export function loadMenu() {
+export default function loadMenu() {
     const content = document.getElementById("content");
     
     //const messages = document.createElement("div");

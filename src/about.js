@@ -1,4 +1,4 @@
-export function loadAbout() {
+export default function loadAbout() {
     const content = document.getElementById("content");
     
     //const messages = document.createElement("div");
